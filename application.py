@@ -94,16 +94,34 @@ if __name__=="__main__":
 
 ## create new repository on github account then link it
     ###initailize : git init
+    
     ### add all files : git add .
         #- see/check all the files : git status
+
     ### first commit : git commit -m "first commit"
         #-  it'll return some error, without email-id and user.name how can you commit
         #-  now have to set git email-id and user.name
+
     ### putting email-id : git config --global user.email "you@email.com"
-    ### configuring user-name: git config --global user.name "Your Name"
+
+    ### configuring user-name: git config --global user.name "Your Name"    (write complete name)
         #(after setting it up, again have to first commit)
-    ### first commit again : git commit -m :first commit"
+
+    ### first commit again : git commit -m "first commit"
         #(now all files are ready for commit)
-    ### setting Up main branch to main : git branch -M main
+
+    ### setting Up git branch to main : git branch -M main
+
     ### giving link of repository to commit : git remote add origin https://github.com/--.git
+
     ## final push to upload : git push -u origin main
+
+
+
+
+
+## adding python.config file on github
+    # git add .
+
+    # git commit -m "Beanstalk configuration"
+    # git push -u origin main
